@@ -188,3 +188,7 @@ margin: auto;
   padding: 20px 10px;
   margin: 30 10;
 }
+
+.navbar-custom{
+  background-color:red;
+}
