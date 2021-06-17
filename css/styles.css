@@ -12,6 +12,7 @@ body {
   text-align: center;
   position: relative;
   padding: 100px;
+  padding-top: 0px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -71,11 +72,12 @@ hr {
 
  #bootstrap-overrides nav{
   background-color: #77ACF1;
+  margin-top: 0px;
+  padding: 20px;
+
 }
 
-#bootstrap-overrides .bg-info{
-  background-color: #77ACF1;
-}
+
 
 .about-par{
   /* text-align: left; */

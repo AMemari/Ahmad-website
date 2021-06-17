@@ -25,7 +25,7 @@
   <section id="title">
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info bg-custom" id="navbar"">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info bg-custom" style="background-color: #e3f2fd;">
       <a class=" navbar-brand" href="#"> AriCo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,22 +35,25 @@
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" active" href="#title"> Home
-            </a>
+            <a class="nav-link" active" href="CV.html"> Curriculum Vitae</a>
           </li>
-          <!-- <li class="nav-item dropdown">
+
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+              About me
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+
+              <a class="dropdown-item" href="#about">Hello</a>
+              <a class="dropdown-item" href="#skill">Technical skill</a>
+
             </div>
           </li>
-          <li class="nav-item"> -->
-          <a class="nav-link" active" href="CV.html"> Curriculum Vitae</a>
-          <a class="nav-link" active" href="#contact"> Contact</a>
+          <li class="nav-item">
+
+
+
+            <a class="nav-link" active" href="#contact"> Contact</a>
           </li>
         </ul>
       </div>
@@ -75,30 +78,37 @@
 
   </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="pic1" src="images/arash.jpg" alt="Ahmad-img">
-      <h2>Hello.</h2>
-      <p class="about-par">Recently, I completed my master’s degree in computer software engineering at Concordia University. During my studies, I extended my knowledge in object-oriented development and design, data structure and algorithms,
-        advanced software architecture, software design, and methodologies. I also learned advanced program practice, program and problem solving, software, comprehension, and Maintenance comprehensively.
-        <br>
-        <br>
-        As a front-end developer and the scrum master of a team of six in a course project, we designed and developed a responsive web application to serve patients and medical staff in a timely manner. I developed the front-end using HTML5 and CSS3
-        and integrated the back-end part developed by Node.js and linked database managed by MongoDB. I handled user sessions and built a secure and user-friendly UI. I continued updating my web development skills by joining North Forge technology
-        exchange incubator as a volunteer front-end developer of team Future Farm to develop a platform to reduce nitrogen and phosphorus leaks to Lake Winnipeg.
-      </p>
+  <section id="about">
+    <div class="middle-container">
+      <div class="profile">
+        <img class="pic1" src="images/arash.jpg" alt="Ahmad-img">
+        <h2>Hello.</h2>
+        <p class="about-par">Recently, I completed my master’s degree in computer software engineering at Concordia University. During my studies, I extended my knowledge in object-oriented development and design, data structure and algorithms,
+          advanced software architecture, software design, and methodologies. I also learned advanced program practice, program and problem solving, software, comprehension, and Maintenance comprehensively.
+          <br>
+          <br>
+          As a front-end developer and the scrum master of a team of six in a course project, we designed and developed a responsive web application to serve patients and medical staff in a timely manner. I developed the front-end using HTML5 and
+          CSS3
+          and integrated the back-end part developed by Node.js and linked database managed by MongoDB. I handled user sessions and built a secure and user-friendly UI. I continued updating my web development skills by joining North Forge technology
+          exchange incubator as a volunteer front-end developer of team Future Farm to develop a platform to reduce nitrogen and phosphorus leaks to Lake Winnipeg.
+        </p>
 
-    </div>
-    <hr>
+      </div>
+  </section>
+
+  <hr>
+  <section id="skill">
     <div class="skills">
       <img class="pic2" src="https://media.giphy.com/media/IhDjGtQLzpxLETw2Jc/giphy.gif" alt="WebDev-img">
       <h2>Technical skill Summary.</h2>
-
-      <p> <b>Programming:</b> Java, Python, R</p>
+      <p> <b>Web:</b> HTML5, CSS3, TypeScript /JavaScript, Angular, React.js, Node.js, Bootstrap, <br>
+ MySQL, MongoDB, and WordPress
+</p> <br>
+      <p> <b>Programming:</b> Java, Python, C# and Dart/Flutter</p>
       <br>
-      <p> <b>Web:</b> HTML5, CSS3, JavaScript, Node.js, Bootstrap, JQuery, SQL, MongoDB and WordPress</p> <br>
-      <p> <b>Framework:</b> Django, Flutter, and Play </p> <br>
-      <p> <b>Tools:</b> Jira, Git, and Microsoft Office </p> <br>
+
+
+      <p> <b>Tools:</b> Jira, Git, and and Selenium </p> <br>
       <hr>
       <div class="skill-row">
 
@@ -111,20 +121,21 @@
         <!-- <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p> -->
       </div>
     </div>
-    <!-- <hr> -->
-    <section id="contact">
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <!-- <h3>Lorem ipsum dolor sit amet, non elit.</h3> -->
-        <p>Love web and coding? </p>
-        <p> Let's get in touch and talk about it!</p>
-        <img class="pic3" src="https://media.giphy.com/media/3orif4qbRS6WjGJ2zC/giphy.gif" alt="contact-me-img">
-        <br>
-        <a class="btn" href="mailto:memari.ahmad@gmail.com">CONTACT ME</a>
-      </div>
+  </section>
+  <!-- <hr> -->
+  <section id="contact">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <!-- <h3>Lorem ipsum dolor sit amet, non elit.</h3> -->
+      <p>Love web and coding? </p>
+      <p> Let's get in touch and talk about it!</p>
+      <img class="pic3" src="https://media.giphy.com/media/3orif4qbRS6WjGJ2zC/giphy.gif" alt="contact-me-img">
+      <br>
+      <a class="btn" href="mailto:memari.ahmad@gmail.com">CONTACT ME</a>
+    </div>
 
 
-    </section>
+  </section>
   </div>
 
 
@@ -134,9 +145,9 @@
 
     <a class="footer-link" href="https://www.facebook.com/memari.arash">Facebook</a>
     <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a>  -->
-  <br>
-  <br>
-  <a class="footer-link" href="#title">Back to top</a>
+    <br>
+    <br>
+    <a class="footer-link" href="#title">Back to top</a>
 
 
     <br>
