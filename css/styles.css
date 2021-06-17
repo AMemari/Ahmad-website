@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 body {
   background: #e4efe7;
   color: #40514E;
@@ -58,6 +65,16 @@ hr {
   border-width: 5px;
   width: 6%;
   margin: 80 auto;
+}
+
+
+
+ #bootstrap-overrides nav{
+  background-color: #77ACF1;
+}
+
+#bootstrap-overrides .bg-info{
+  background-color: #77ACF1;
 }
 
 .about-par{
@@ -137,7 +154,7 @@ margin: auto;
 }
 
 .copyright{
-  margin: 50px auto 10px auto;
+  margin: 30px auto 10px auto;
   color: #EAF6F6;
   font-size: 0.75rem;
 
